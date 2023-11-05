@@ -1,6 +1,6 @@
 body {
   color: #ffffff;
-  background: #15191f;
+  background: #000000;
 }
 
 .card-box {
@@ -30,7 +30,7 @@ input {
 }
 
 .btn-primary {
-  background: linear-gradient(45deg, #c02e64, #fc5c4a);
+  background: linear-gradient(45deg, #e18001, #dd5d0d);
   background-size: 100%;
   transition: 400ms;
   padding: 0 1.7em;

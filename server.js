@@ -29,21 +29,21 @@ io.on("connection", (socket) => {
   function botMessages() {
     setTimeout(() => {
       socket.emit("chat message", {
-        nickname: "CPU 1",
+        nickname: "Satoshi",
         msg: "hi guys",
       });
     }, 2000);
 
     setTimeout(() => {
       socket.emit("chat message", {
-        nickname: "CPU 2",
+        nickname: "Elon",
         msg: "hi men",
       });
     }, 5000);
 
     setTimeout(() => {
       socket.emit("chat message", {
-        nickname: "CPU 1",
+        nickname: "Kruskal",
         msg: "I could play this game for hours!",
       });
     }, 8000);
